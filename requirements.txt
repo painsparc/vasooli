@@ -1,0 +1,4 @@
+requests>=2.31
+reportlab>=4.0
+fastapi>=0.110
+uvicorn>=0.29

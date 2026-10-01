@@ -1,0 +1,13 @@
+id,buyer,amount,inv_date,credit_days,pod_ref
+INV-101,Sharma Steel Traders,120000,2026-06-20,30,DC-2206
+INV-102,Sharma Steel Traders,85000,2026-08-01,30,DC-2288
+INV-103,Apex Infra Projects Ltd,480000,2026-05-25,60,DC-2171
+INV-104,Apex Infra Projects Ltd,210000,2026-07-10,45,DC-2240
+INV-105,Bharat Auto Components,145000,2026-07-15,30,DC-2249
+INV-106,Bharat Auto Components,95000,2026-09-01,30,DC-2301
+INV-107,Kisan Agro Mart,75000,2026-07-01,30,DC-2229
+INV-108,Kisan Agro Mart,60000,2026-08-05,30,DC-2291
+INV-109,Mehta Retail Pvt Ltd,55000,2026-08-20,30,DC-2296
+INV-110,Mehta Retail Pvt Ltd,70000,2026-09-10,30,DC-2310
+INV-111,Sharma Steel Traders,40000,2026-09-25,15,DC-2322
+INV-112,Apex Infra Projects Ltd,325000,2026-09-20,30,DC-2318

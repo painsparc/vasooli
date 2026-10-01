@@ -1,0 +1,12 @@
+{
+  "supplier": {"name": "Gupta Precision Components", "owner": "Ramesh Gupta", "udyam": "UDYAM-MH-26-0012345 (demo)", "category": "Small Enterprise", "city": "Pune"},
+  "today": "2026-10-05",
+  "horizon_days": 12,
+  "bank_balance": 60000,
+  "bank_rate_pct": 5.5,
+  "grace_days": 3,
+  "obligations": [
+    {"label": "Staff salaries", "due": "2026-10-09", "amount": 300000},
+    {"label": "Raw-material vendor", "due": "2026-10-14", "amount": 150000}
+  ]
+}
