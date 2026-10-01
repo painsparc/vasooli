@@ -1,0 +1,46 @@
+apiVersion: aikart.dev/v1
+kind: Agent
+
+metadata:
+  name: vasooli
+  version: "1.0.0"
+  description: "AI agent for MSME payment recovery and receivables management."
+
+spec:
+  runtime:
+    type: docker
+    dockerfile: Dockerfile
+
+  entrypoint:
+    command: ["python", "main.py"]
+
+  inputs:
+    - name: invoices
+      type: json
+      description: "Invoice and receivables data."
+    - name: bank_statement
+      type: json
+      description: "Bank transaction data."
+    - name: cash_requirements
+      type: json
+      description: "Upcoming business cash obligations."
+
+  outputs:
+    - name: recovery_summary
+      type: json
+      description: "Payment recovery, reconciliation and escalation summary."
+
+  capabilities:
+    - invoice_prioritization
+    - payment_followup
+    - reply_classification
+    - payment_reconciliation
+    - escalation_planning
+
+  safety:
+    human_approval_required_for:
+      - legal_notice
+      - formal_escalation
+
+  network:
+    egress: none
